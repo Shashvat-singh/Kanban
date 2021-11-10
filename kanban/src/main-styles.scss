@@ -1,0 +1,25 @@
+// global styles and changing bulma variabales
+
+// import a google fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+$family-sans-serif:"Nunito", sans-serif;
+
+//Update some of bulma's component variables
+$control-border-width:2px;
+$input-border-color:transparent;
+$input-shadow: none;
+
+/* Global style */
+html, body{
+    height: 100%
+}
+
+html{
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+
+
+    overflow-y:auto !important;
+}
